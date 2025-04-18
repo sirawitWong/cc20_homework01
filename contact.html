@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href=".css/style.css">  
+<title>Contact</title>
+</head>
+<body>
+  <div class="nav-bar">
+    <span><a href="index.html">Home</a></span>
+    <span><a href="education.html">Education</a></span>
+    <span><a href="work.html">Work Experiance</a></span>
+    <span><a href="#">Contact Me</a></span>
+ </div> 
+ <hr>
+ <h1>Contact Me</h1>
+  <div class="form-box">
+    <h3>Enter your info</h3>
+    <form>
+      <label for="name">Name</label><br>
+      <input id="name" type="text" name="name" placeholder="Your Name" class="contact" autocomplete="off"><br>
+      <label for="email">Email</label><br>
+      <input id="email"type="email" name="email" placeholder="Your email" class="contact" autocomplete="off"><br>
+      <label>Gender</label><br>
+      <select id="gender" name="gender">
+        <option disable selected value="select">Select--</option><br>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <br><br> 
+       <label for="message">Message</label><br>
+       <textarea id="message" type="text"></textarea>
+       <br>
+       <button type="submit" value="send">Send</button>
+       <button type="reset" value="clear">Clear</button>
+    </form>
+  </div>
+</body>
+</html>
